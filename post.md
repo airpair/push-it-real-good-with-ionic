@@ -20,7 +20,15 @@ What this does is essentially place the app in the Ionic Services platform and a
   "app_id": "raaa6345d"
 }
 ```
-You will need this `app_id` to configure the starter app.  For Android, you will also need the Google Project Number to provide in the `.config` block of the `app.js` in your project's root directory. Once these have been provided, you are ready to deploy and launch the application.
+You will need this `app_id` to configure the starter app.  For Android, you will also need the Google Project Number to provide in the `.config` block of the `app.js` in your project's root directory. 
+
+Also, you will need to register your Google Server API key with Ionic.  This is not your Google Project Id.  This is the API key that is created in the Google Developer's Console.
+
+```
+ $ ionic push --google-api-key [your-google-api-key]
+```
+
+Now you are ready to deploy and launch the application.
 
 ## Launch the Starter App
 First you will need to add the platform(s) you intend to use by doing the following.
