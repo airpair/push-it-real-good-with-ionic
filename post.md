@@ -42,8 +42,6 @@ For now, since we just want to see this push notification feature work, you are 
 ## Identify and Register for Push
 On the device, you will need to first "Identify" the user.  Tap on the "Identify" button and tap "ok" on the alert.  Then tap on the "Register for Push" button and tap "ok" on the alert. You should see some JSON displayed to the top of the page and some "Device token ok" text under the "Register for Push" button.  
 
-(//imgur.com/kzUpPWF.png)
-
 ![Starter App](http://i.imgur.com/kzUpPWF.png "Starter App")
 
 Among other things you should see something in the terminal window that looks like this:
