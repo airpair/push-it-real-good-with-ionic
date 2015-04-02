@@ -20,9 +20,7 @@ What this does is essentially place the app in the Ionic Services platform and a
   "app_id": "raaa6345d"
 }
 ```
-You will need this `app_id` to configure the starter app.  For Android, you will also need the Google Project Number to provide in the `.config` block of the `app.js` in your project's root directory. 
-
-Also, you will need to register your Google Server API key with Ionic.  This is not your Google Project Id.  This is the API key that is created in the Google Developer's Console.
+You will need this `app_id` to configure the starter app.  For Android, you will also need the Google Project Number to provide in the `.config` block of the `app.js` in your project's root directory.  Also, you will need to register your Google Server API key with Ionic.  This is not your Google Project Number.  This is the API key that is created in the Google Developer's Console.  See the [Android Setup Guide](http://docs.ionic.io/push/android/ "Android Setup Guide") for more details.
 
 ```
  $ ionic push --google-api-key [your-google-api-key]
@@ -31,15 +29,13 @@ Also, you will need to register your Google Server API key with Ionic.  This is 
 Now you are ready to deploy and launch the application.
 
 ## Launch the Starter App
-First you will need to add the platform(s) you intend to use by doing the following.
+First you will need to add the platform(s) you intend to use by doing the following.  I am going to assume Android here just because it is easier.
 ```
 $ ionic platform add ios android
 ```
 When you deploy the app, I recommend you do so with livereload like this:
 ```
 $ ionic run android -l -s -c
-or 
-$ ionic run ios -l -s -c
 ```
 For now, since we just want to see this push notification feature work, you are going to copy the token from the console log and use it to send a push notification.  Normally, you wouldn't need to do this because we would [setup a web hook](http://docs.ionic.io/push/server/ "Setup a web hook for user identification and device registration") instead. Although, not recommended, you could make our own request to your own backend to inform it that the user and token are being registered.
 
