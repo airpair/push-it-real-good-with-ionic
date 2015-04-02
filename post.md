@@ -44,6 +44,8 @@ On the device, you will need to first "Identify" the user.  Tap on the "Identify
 
 (//imgur.com/kzUpPWF.png)
 
+![Starter App](http://i.imgur.com/kzUpPWF.png "Starter App")
+
 Among other things you should see something in the terminal window that looks like this:
 ```
 Got token, APA91bGxOUuQiyVzKBSg0txjzkMYNseWgtjVQU3WRNvN9dCjyr6nfaz9wENsRG6jpAap6kt0mRNJPVn1jAUO0n7T1_secsGi-WhQLsQp3CSFNkEfsmPYLcNMvMiWHnMZQTtmMtxrYlo3yVy6myDxWO-RToqnTESOA-B2u_JPpNFGTQAxRzf4TZm3Ql-Yni4_qOIpFkjdD9z2, android
